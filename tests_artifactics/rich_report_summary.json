@@ -1,0 +1,9 @@
+{
+  "report_paths": {
+    "json": "tests_artifacts\\rich_report.json",
+    "markdown": "tests_artifacts\\rich_report.md"
+  },
+  "final_phase": "SPRING 1903 ORDERS",
+  "winner": null,
+  "total_phases": 7
+}

@@ -1,0 +1,700 @@
+{
+  "game_name": "Diplomacy Test Run",
+  "winner": null,
+  "total_phases": 4,
+  "final_phase": "SPRING 1902 ORDERS",
+  "phases": [
+    {
+      "phase_index": 1,
+      "phase_start": "SPRING 1901 ORDERS",
+      "phase_end": "SPRING 1901 RETREATS",
+      "phase_summary": [
+        "Phase advanced from SPRING 1901 ORDERS to SPRING 1901 RETREATS.",
+        "Successful actions: 2; contested or failed actions: 1.",
+        "Supply center ownership stayed flat this phase.",
+        "Dislodged units: BUR. Retreat map: BUR -> GAS, MAR, RUH."
+      ],
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [
+          "A WAL - BEL",
+          "F ENG C A WAL - BEL"
+        ],
+        "FRANCE": [
+          "A PAR - BUR",
+          "A PIC S A PAR - BUR"
+        ],
+        "GERMANY": [
+          "A BUR H",
+          "A MUN H"
+        ],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "WAL",
+          "result": "MOVE BEL"
+        },
+        {
+          "location": "ENG",
+          "result": "CONVOY"
+        },
+        {
+          "location": "PAR",
+          "result": "MOVE BUR"
+        },
+        {
+          "location": "PIC",
+          "result": "SUPPORT MOVE BUR"
+        },
+        {
+          "location": "BUR",
+          "result": "DISLODGED"
+        },
+        {
+          "location": "MUN",
+          "result": "HOLD"
+        }
+      ],
+      "key_events": [
+        "2 successful moves resolved.",
+        "Units dislodged at BUR."
+      ],
+      "dislodged_units": [
+        "BUR"
+      ],
+      "retreat_options": {
+        "BUR": [
+          "GAS",
+          "MAR",
+          "RUH"
+        ]
+      },
+      "result_groups": {
+        "success": [
+          "WAL MOVE BEL",
+          "PAR MOVE BUR"
+        ],
+        "failed": [
+          "BUR DISLODGED"
+        ],
+        "support": [
+          "ENG CONVOY",
+          "PIC SUPPORT MOVE BUR"
+        ],
+        "hold": [
+          "MUN HOLD"
+        ]
+      },
+      "supply_center_changes": [],
+      "unit_count_changes": [
+        "GERMANY -1 unit(s)"
+      ],
+      "position_changes": [
+        "FRANCE A at PAR left the board.",
+        "ENGLAND A at WAL left the board.",
+        "ENGLAND A entered play at BEL."
+      ],
+      "snapshot_before": {
+        "phase": "SPRING 1901 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 3,
+          "FRANCE": 3,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 2,
+          "FRANCE": 2,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BUR": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "MUN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "PAR": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "WAL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAL"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "SPRING 1901 RETREATS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 3,
+          "FRANCE": 3,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 2,
+          "FRANCE": 2,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BUR": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "MUN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "PIC": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "PIC"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 2,
+      "phase_start": "SPRING 1901 RETREATS",
+      "phase_end": "FALL 1901 ORDERS",
+      "phase_summary": [
+        "Phase advanced from SPRING 1901 RETREATS to FALL 1901 ORDERS.",
+        "Successful actions: 1; contested or failed actions: 0.",
+        "Supply center ownership stayed flat this phase."
+      ],
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [],
+        "FRANCE": [],
+        "GERMANY": [
+          "A BUR R RUH"
+        ],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "BUR",
+          "result": "RETREAT RUH"
+        }
+      ],
+      "key_events": [
+        "1 retreats completed."
+      ],
+      "dislodged_units": [],
+      "retreat_options": {},
+      "result_groups": {
+        "success": [
+          "BUR RETREAT RUH"
+        ],
+        "failed": [],
+        "support": [],
+        "hold": []
+      },
+      "supply_center_changes": [],
+      "unit_count_changes": [
+        "GERMANY +1 unit(s)"
+      ],
+      "position_changes": [
+        "GERMANY A entered play at RUH."
+      ],
+      "snapshot_before": {
+        "phase": "SPRING 1901 RETREATS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 3,
+          "FRANCE": 3,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 2,
+          "FRANCE": 2,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BUR": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "MUN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "PIC": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "PIC"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "FALL 1901 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 3,
+          "FRANCE": 3,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 2,
+          "FRANCE": 2,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BUR": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "MUN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "PIC": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 3,
+      "phase_start": "FALL 1901 ORDERS",
+      "phase_end": "WINTER 1901 ADJUSTMENTS",
+      "phase_summary": [
+        "Phase advanced from FALL 1901 ORDERS to WINTER 1901 ADJUSTMENTS.",
+        "Successful actions: 0; contested or failed actions: 0.",
+        "Supply center swing: ENGLAND +1 supply center(s)."
+      ],
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [
+          "A BEL H",
+          "F ENG H"
+        ],
+        "FRANCE": [
+          "A BUR H",
+          "A PIC H"
+        ],
+        "GERMANY": [
+          "A RUH H",
+          "A MUN H"
+        ],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "ENG",
+          "result": "HOLD"
+        },
+        {
+          "location": "PIC",
+          "result": "HOLD"
+        },
+        {
+          "location": "MUN",
+          "result": "HOLD"
+        },
+        {
+          "location": "BEL",
+          "result": "HOLD"
+        },
+        {
+          "location": "BUR",
+          "result": "HOLD"
+        },
+        {
+          "location": "RUH",
+          "result": "HOLD"
+        }
+      ],
+      "key_events": [
+        "ENGLAND gained 1 supply center(s)."
+      ],
+      "dislodged_units": [],
+      "retreat_options": {},
+      "result_groups": {
+        "success": [],
+        "failed": [],
+        "support": [],
+        "hold": [
+          "ENG HOLD",
+          "PIC HOLD",
+          "MUN HOLD",
+          "BEL HOLD",
+          "BUR HOLD",
+          "RUH HOLD"
+        ]
+      },
+      "supply_center_changes": [
+        "ENGLAND +1 supply center(s)"
+      ],
+      "unit_count_changes": [],
+      "position_changes": [],
+      "snapshot_before": {
+        "phase": "FALL 1901 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 3,
+          "FRANCE": 3,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 2,
+          "FRANCE": 2,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BUR": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "MUN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "PIC": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "WINTER 1901 ADJUSTMENTS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 4,
+          "FRANCE": 3,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 2,
+          "FRANCE": 2,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BUR": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "MUN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "PIC": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 4,
+      "phase_start": "WINTER 1901 ADJUSTMENTS",
+      "phase_end": "SPRING 1902 ORDERS",
+      "phase_summary": [
+        "Phase advanced from WINTER 1901 ADJUSTMENTS to SPRING 1902 ORDERS.",
+        "Successful actions: 1; contested or failed actions: 0.",
+        "Supply center ownership stayed flat this phase."
+      ],
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [
+          "BUILD A AT LON"
+        ],
+        "FRANCE": [],
+        "GERMANY": [],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "LON",
+          "result": "BUILD A"
+        }
+      ],
+      "key_events": [
+        "1 builds completed."
+      ],
+      "dislodged_units": [],
+      "retreat_options": {},
+      "result_groups": {
+        "success": [
+          "LON BUILD A"
+        ],
+        "failed": [],
+        "support": [],
+        "hold": []
+      },
+      "supply_center_changes": [],
+      "unit_count_changes": [
+        "ENGLAND +1 unit(s)"
+      ],
+      "position_changes": [
+        "ENGLAND A entered play at LON."
+      ],
+      "snapshot_before": {
+        "phase": "WINTER 1901 ADJUSTMENTS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 4,
+          "FRANCE": 3,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 2,
+          "FRANCE": 2,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BUR": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "MUN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "PIC": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "SPRING 1902 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 4,
+          "FRANCE": 3,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 3,
+          "FRANCE": 2,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BUR": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MUN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "PIC": {
+            "power": "FRANCE",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          }
+        },
+        "winner": null
+      }
+    }
+  ]
+}

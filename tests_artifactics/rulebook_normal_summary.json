@@ -1,0 +1,9 @@
+{
+  "report_paths": {
+    "json": "tests_artifacts\\rulebook_normal.json",
+    "markdown": "tests_artifacts\\rulebook_normal.md"
+  },
+  "final_phase": "SPRING 1903 ORDERS",
+  "winner": null,
+  "total_phases": 7
+}

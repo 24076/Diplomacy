@@ -1,0 +1,9 @@
+{
+  "report_paths": {
+    "json": "tests_artifacts\\full_campaign.json",
+    "markdown": "tests_artifacts\\full_campaign.md"
+  },
+  "final_phase": "FALL 1903 COMPLETED",
+  "winner": "ENGLAND",
+  "total_phases": 10
+}

@@ -1,0 +1,3001 @@
+{
+  "game_name": "Diplomacy Test Run",
+  "winner": "ENGLAND",
+  "total_phases": 10,
+  "final_phase": "FALL 1903 COMPLETED",
+  "phases": [
+    {
+      "phase_index": 1,
+      "phase_start": "SPRING 1901 ORDERS",
+      "phase_end": "SPRING 1901 RETREATS",
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [
+          "A WAL - BEL",
+          "F ENG C A WAL - BEL",
+          "F NTH S A WAL - BEL"
+        ],
+        "FRANCE": [],
+        "GERMANY": [
+          "A BEL H",
+          "A HOL H",
+          "A DEN H"
+        ],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "WAL",
+          "result": "MOVE BEL"
+        },
+        {
+          "location": "ENG",
+          "result": "CONVOY"
+        },
+        {
+          "location": "NTH",
+          "result": "SUPPORT MOVE BEL"
+        },
+        {
+          "location": "YOR",
+          "result": "HOLD"
+        },
+        {
+          "location": "NWY",
+          "result": "HOLD"
+        },
+        {
+          "location": "SWE",
+          "result": "HOLD"
+        },
+        {
+          "location": "STP",
+          "result": "HOLD"
+        },
+        {
+          "location": "MOS",
+          "result": "HOLD"
+        },
+        {
+          "location": "WAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "KIE",
+          "result": "HOLD"
+        },
+        {
+          "location": "MUN",
+          "result": "HOLD"
+        },
+        {
+          "location": "PIC",
+          "result": "HOLD"
+        },
+        {
+          "location": "BRE",
+          "result": "HOLD"
+        },
+        {
+          "location": "PAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "MAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "BEL",
+          "result": "DISLODGED"
+        },
+        {
+          "location": "HOL",
+          "result": "HOLD"
+        },
+        {
+          "location": "DEN",
+          "result": "HOLD"
+        }
+      ],
+      "key_events": [
+        "1 successful moves resolved.",
+        "Units dislodged at BEL."
+      ],
+      "dislodged_units": [
+        "BEL"
+      ],
+      "retreat_options": {
+        "BEL": [
+          "BUR",
+          "RUH"
+        ]
+      },
+      "snapshot_before": {
+        "phase": "SPRING 1901 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAL"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "SPRING 1901 RETREATS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 2,
+      "phase_start": "SPRING 1901 RETREATS",
+      "phase_end": "FALL 1901 ORDERS",
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [],
+        "FRANCE": [],
+        "GERMANY": [
+          "A BEL R BUR"
+        ],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "BEL",
+          "result": "RETREAT BUR"
+        }
+      ],
+      "key_events": [
+        "1 retreats completed."
+      ],
+      "dislodged_units": [],
+      "retreat_options": {},
+      "snapshot_before": {
+        "phase": "SPRING 1901 RETREATS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "FALL 1901 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "BUR": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 3,
+      "phase_start": "FALL 1901 ORDERS",
+      "phase_end": "WINTER 1901 ADJUSTMENTS",
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [
+          "A BEL H"
+        ],
+        "FRANCE": [],
+        "GERMANY": [
+          "A BUR H",
+          "A HOL H",
+          "A DEN H"
+        ],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "ENG",
+          "result": "HOLD"
+        },
+        {
+          "location": "NTH",
+          "result": "HOLD"
+        },
+        {
+          "location": "YOR",
+          "result": "HOLD"
+        },
+        {
+          "location": "NWY",
+          "result": "HOLD"
+        },
+        {
+          "location": "SWE",
+          "result": "HOLD"
+        },
+        {
+          "location": "STP",
+          "result": "HOLD"
+        },
+        {
+          "location": "MOS",
+          "result": "HOLD"
+        },
+        {
+          "location": "WAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "KIE",
+          "result": "HOLD"
+        },
+        {
+          "location": "MUN",
+          "result": "HOLD"
+        },
+        {
+          "location": "PIC",
+          "result": "HOLD"
+        },
+        {
+          "location": "BRE",
+          "result": "HOLD"
+        },
+        {
+          "location": "PAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "MAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "HOL",
+          "result": "HOLD"
+        },
+        {
+          "location": "DEN",
+          "result": "HOLD"
+        },
+        {
+          "location": "BEL",
+          "result": "HOLD"
+        },
+        {
+          "location": "BUR",
+          "result": "HOLD"
+        }
+      ],
+      "key_events": [
+        "ENGLAND gained 1 supply center(s).",
+        "GERMANY lost 1 supply center(s)."
+      ],
+      "dislodged_units": [],
+      "retreat_options": {},
+      "snapshot_before": {
+        "phase": "FALL 1901 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "BUR": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "WINTER 1901 ADJUSTMENTS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "BUR": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 4,
+      "phase_start": "WINTER 1901 ADJUSTMENTS",
+      "phase_end": "SPRING 1902 ORDERS",
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [
+          "BUILD A AT LON"
+        ],
+        "FRANCE": [],
+        "GERMANY": [],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "LON",
+          "result": "BUILD A"
+        },
+        {
+          "location": "BUR",
+          "result": "DISBAND A"
+        }
+      ],
+      "key_events": [
+        "1 builds completed.",
+        "1 disbands completed."
+      ],
+      "dislodged_units": [],
+      "retreat_options": {},
+      "snapshot_before": {
+        "phase": "WINTER 1901 ADJUSTMENTS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 15,
+          "FRANCE": 0,
+          "GERMANY": 3,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "BUR": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "BUR"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "SPRING 1902 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 5,
+      "phase_start": "SPRING 1902 ORDERS",
+      "phase_end": "FALL 1902 ORDERS",
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [
+          "A BEL H",
+          "A LON H"
+        ],
+        "FRANCE": [],
+        "GERMANY": [
+          "A HOL H",
+          "A DEN H"
+        ],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "ENG",
+          "result": "HOLD"
+        },
+        {
+          "location": "NTH",
+          "result": "HOLD"
+        },
+        {
+          "location": "YOR",
+          "result": "HOLD"
+        },
+        {
+          "location": "NWY",
+          "result": "HOLD"
+        },
+        {
+          "location": "SWE",
+          "result": "HOLD"
+        },
+        {
+          "location": "STP",
+          "result": "HOLD"
+        },
+        {
+          "location": "MOS",
+          "result": "HOLD"
+        },
+        {
+          "location": "WAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "KIE",
+          "result": "HOLD"
+        },
+        {
+          "location": "MUN",
+          "result": "HOLD"
+        },
+        {
+          "location": "PIC",
+          "result": "HOLD"
+        },
+        {
+          "location": "BRE",
+          "result": "HOLD"
+        },
+        {
+          "location": "PAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "MAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "HOL",
+          "result": "HOLD"
+        },
+        {
+          "location": "DEN",
+          "result": "HOLD"
+        },
+        {
+          "location": "BEL",
+          "result": "HOLD"
+        },
+        {
+          "location": "LON",
+          "result": "HOLD"
+        }
+      ],
+      "key_events": [
+        "Phase advanced from SPRING 1902 ORDERS to FALL 1902 ORDERS."
+      ],
+      "dislodged_units": [],
+      "retreat_options": {},
+      "snapshot_before": {
+        "phase": "SPRING 1902 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "FALL 1902 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 6,
+      "phase_start": "FALL 1902 ORDERS",
+      "phase_end": "FALL 1902 RETREATS",
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [
+          "A BEL - HOL",
+          "F NTH S A BEL - HOL"
+        ],
+        "FRANCE": [],
+        "GERMANY": [
+          "A HOL H",
+          "A DEN H"
+        ],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "ENG",
+          "result": "HOLD"
+        },
+        {
+          "location": "NTH",
+          "result": "SUPPORT MOVE HOL"
+        },
+        {
+          "location": "YOR",
+          "result": "HOLD"
+        },
+        {
+          "location": "NWY",
+          "result": "HOLD"
+        },
+        {
+          "location": "SWE",
+          "result": "HOLD"
+        },
+        {
+          "location": "STP",
+          "result": "HOLD"
+        },
+        {
+          "location": "MOS",
+          "result": "HOLD"
+        },
+        {
+          "location": "WAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "KIE",
+          "result": "HOLD"
+        },
+        {
+          "location": "MUN",
+          "result": "HOLD"
+        },
+        {
+          "location": "PIC",
+          "result": "HOLD"
+        },
+        {
+          "location": "BRE",
+          "result": "HOLD"
+        },
+        {
+          "location": "PAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "MAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "HOL",
+          "result": "DISLODGED"
+        },
+        {
+          "location": "DEN",
+          "result": "HOLD"
+        },
+        {
+          "location": "BEL",
+          "result": "MOVE HOL"
+        },
+        {
+          "location": "LON",
+          "result": "HOLD"
+        }
+      ],
+      "key_events": [
+        "1 successful moves resolved.",
+        "Units dislodged at HOL."
+      ],
+      "dislodged_units": [
+        "HOL"
+      ],
+      "retreat_options": {
+        "HOL": [
+          "RUH"
+        ]
+      },
+      "snapshot_before": {
+        "phase": "FALL 1902 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BEL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "BEL"
+          },
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "FALL 1902 RETREATS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 7,
+      "phase_start": "FALL 1902 RETREATS",
+      "phase_end": "WINTER 1902 ADJUSTMENTS",
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [],
+        "FRANCE": [],
+        "GERMANY": [
+          "A HOL R RUH"
+        ],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "HOL",
+          "result": "RETREAT RUH"
+        }
+      ],
+      "key_events": [
+        "1 retreats completed.",
+        "ENGLAND gained 1 supply center(s).",
+        "GERMANY lost 1 supply center(s)."
+      ],
+      "dislodged_units": [],
+      "retreat_options": {},
+      "snapshot_before": {
+        "phase": "FALL 1902 RETREATS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "WINTER 1902 ADJUSTMENTS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 17,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 8,
+      "phase_start": "WINTER 1902 ADJUSTMENTS",
+      "phase_end": "SPRING 1903 ORDERS",
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [
+          "BUILD A AT EDI"
+        ],
+        "FRANCE": [],
+        "GERMANY": [],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "EDI",
+          "result": "BUILD A"
+        },
+        {
+          "location": "DEN",
+          "result": "DISBAND A"
+        }
+      ],
+      "key_events": [
+        "1 builds completed.",
+        "1 disbands completed."
+      ],
+      "dislodged_units": [],
+      "retreat_options": {},
+      "snapshot_before": {
+        "phase": "WINTER 1902 ADJUSTMENTS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 17,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 16,
+          "FRANCE": 0,
+          "GERMANY": 2,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "SPRING 1903 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 17,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 17,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "EDI": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "EDI"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 9,
+      "phase_start": "SPRING 1903 ORDERS",
+      "phase_end": "FALL 1903 ORDERS",
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [
+          "A HOL H",
+          "A EDI H"
+        ],
+        "FRANCE": [],
+        "GERMANY": [
+          "A RUH H"
+        ],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "ENG",
+          "result": "HOLD"
+        },
+        {
+          "location": "NTH",
+          "result": "HOLD"
+        },
+        {
+          "location": "YOR",
+          "result": "HOLD"
+        },
+        {
+          "location": "NWY",
+          "result": "HOLD"
+        },
+        {
+          "location": "SWE",
+          "result": "HOLD"
+        },
+        {
+          "location": "STP",
+          "result": "HOLD"
+        },
+        {
+          "location": "MOS",
+          "result": "HOLD"
+        },
+        {
+          "location": "WAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "KIE",
+          "result": "HOLD"
+        },
+        {
+          "location": "MUN",
+          "result": "HOLD"
+        },
+        {
+          "location": "PIC",
+          "result": "HOLD"
+        },
+        {
+          "location": "BRE",
+          "result": "HOLD"
+        },
+        {
+          "location": "PAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "MAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "LON",
+          "result": "HOLD"
+        },
+        {
+          "location": "HOL",
+          "result": "HOLD"
+        },
+        {
+          "location": "RUH",
+          "result": "HOLD"
+        },
+        {
+          "location": "EDI",
+          "result": "HOLD"
+        }
+      ],
+      "key_events": [
+        "Phase advanced from SPRING 1903 ORDERS to FALL 1903 ORDERS."
+      ],
+      "dislodged_units": [],
+      "retreat_options": {},
+      "snapshot_before": {
+        "phase": "SPRING 1903 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 17,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 17,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "EDI": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "EDI"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "FALL 1903 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 17,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 17,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "EDI": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "EDI"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      }
+    },
+    {
+      "phase_index": 10,
+      "phase_start": "FALL 1903 ORDERS",
+      "phase_end": "FALL 1903 COMPLETED",
+      "submitted_orders": {
+        "AUSTRIA": [],
+        "ENGLAND": [
+          "A KIE - DEN",
+          "F NTH S A KIE - DEN"
+        ],
+        "FRANCE": [],
+        "GERMANY": [
+          "A RUH H"
+        ],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": []
+      },
+      "results": [
+        {
+          "location": "ENG",
+          "result": "HOLD"
+        },
+        {
+          "location": "NTH",
+          "result": "SUPPORT MOVE DEN"
+        },
+        {
+          "location": "YOR",
+          "result": "HOLD"
+        },
+        {
+          "location": "NWY",
+          "result": "HOLD"
+        },
+        {
+          "location": "SWE",
+          "result": "HOLD"
+        },
+        {
+          "location": "STP",
+          "result": "HOLD"
+        },
+        {
+          "location": "MOS",
+          "result": "HOLD"
+        },
+        {
+          "location": "WAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "KIE",
+          "result": "MOVE DEN"
+        },
+        {
+          "location": "MUN",
+          "result": "HOLD"
+        },
+        {
+          "location": "PIC",
+          "result": "HOLD"
+        },
+        {
+          "location": "BRE",
+          "result": "HOLD"
+        },
+        {
+          "location": "PAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "MAR",
+          "result": "HOLD"
+        },
+        {
+          "location": "LON",
+          "result": "HOLD"
+        },
+        {
+          "location": "HOL",
+          "result": "HOLD"
+        },
+        {
+          "location": "RUH",
+          "result": "HOLD"
+        },
+        {
+          "location": "EDI",
+          "result": "HOLD"
+        }
+      ],
+      "key_events": [
+        "1 successful moves resolved.",
+        "ENGLAND gained 1 supply center(s).",
+        "GERMANY lost 1 supply center(s).",
+        "ENGLAND wins the game in FALL 1903 COMPLETED."
+      ],
+      "dislodged_units": [],
+      "retreat_options": {},
+      "snapshot_before": {
+        "phase": "FALL 1903 ORDERS",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 17,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 17,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "EDI": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "EDI"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "KIE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "KIE"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": null
+      },
+      "snapshot_after": {
+        "phase": "FALL 1903 COMPLETED",
+        "supply_centers": {
+          "AUSTRIA": 0,
+          "ENGLAND": 18,
+          "FRANCE": 0,
+          "GERMANY": 0,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "unit_counts": {
+          "AUSTRIA": 0,
+          "ENGLAND": 17,
+          "FRANCE": 0,
+          "GERMANY": 1,
+          "ITALY": 0,
+          "RUSSIA": 0,
+          "TURKEY": 0
+        },
+        "units": {
+          "BRE": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "BRE"
+          },
+          "DEN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "DEN"
+          },
+          "EDI": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "EDI"
+          },
+          "ENG": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "ENG"
+          },
+          "HOL": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "HOL"
+          },
+          "LON": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "LON"
+          },
+          "MAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MAR"
+          },
+          "MOS": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MOS"
+          },
+          "MUN": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "MUN"
+          },
+          "NTH": {
+            "power": "ENGLAND",
+            "unit_type": "F",
+            "location": "NTH"
+          },
+          "NWY": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "NWY"
+          },
+          "PAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PAR"
+          },
+          "PIC": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "PIC"
+          },
+          "RUH": {
+            "power": "GERMANY",
+            "unit_type": "A",
+            "location": "RUH"
+          },
+          "STP": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "STP"
+          },
+          "SWE": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "SWE"
+          },
+          "WAR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "WAR"
+          },
+          "YOR": {
+            "power": "ENGLAND",
+            "unit_type": "A",
+            "location": "YOR"
+          }
+        },
+        "winner": "ENGLAND"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "report_paths": {
+    "json": "tests_artifacts\\cli_smoke.json",
+    "markdown": "tests_artifacts\\cli_smoke.md"
+  },
+  "final_phase": "SPRING 1902 ORDERS",
+  "winner": null,
+  "total_phases": 4
+}
