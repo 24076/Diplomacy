@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import os
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 
 from engine.ai.client import DeepSeekClient
@@ -32,6 +34,7 @@ class AIDiplomacyDirector:
         self.client = DeepSeekClient()
         self.memory = DiplomacyMemory()
         self._negotiated_phase = None
+        self.max_parallel_workers = max(1, int(os.environ.get("DIPLOMACY_AI_MAX_WORKERS", "4")))
 
     def ensure_phase_negotiation(
         self,
@@ -45,17 +48,47 @@ class AIDiplomacyDirector:
         if self._negotiated_phase == phase:
             return []
         self._negotiated_phase = phase
-        summaries = []
+        interactions: list[tuple[str, str]] = []
         for power in POWERS:
             if power not in ai_powers:
                 continue
             target = self._pick_diplomatic_target(power, ai_powers)
             if target is None:
                 continue
-            message = self._generate_outreach_message(game, power, target)
+            interactions.append((power, target))
+
+        exchanges: list[tuple[str, str, str, str | None]] = []
+        if interactions and self.client.available and len(interactions) > 1:
+            with ThreadPoolExecutor(max_workers=self._worker_limit(len(interactions))) as executor:
+                futures = [
+                    executor.submit(
+                        self._build_negotiation_exchange,
+                        game,
+                        power,
+                        target,
+                        reciprocal_replies=reciprocal_replies and target in ai_powers,
+                        reply_via_model=reply_via_model,
+                    )
+                    for power, target in interactions
+                ]
+                for future in futures:
+                    exchanges.append(future.result())
+        else:
+            for power, target in interactions:
+                exchanges.append(
+                    self._build_negotiation_exchange(
+                        game,
+                        power,
+                        target,
+                        reciprocal_replies=reciprocal_replies and target in ai_powers,
+                        reply_via_model=reply_via_model,
+                    )
+                )
+
+        summaries = []
+        for power, target, message, reply in exchanges:
             self.memory.record_message(power, target, message, phase, visibility="private")
-            if reciprocal_replies:
-                reply = self._generate_reply(game, power, target, message, prefer_model=reply_via_model)
+            if reply is not None:
                 self.memory.record_message(target, power, reply, phase, visibility="private")
                 summaries.append(f"{power} and {target} exchanged private proposals.")
             else:
@@ -82,11 +115,47 @@ class AIDiplomacyDirector:
         fallback_orders = choose_fallback_orders(game, power, possible_orders, self.memory)
         return AIResult(fallback_orders, "Fallback heuristic orders.")
 
+    def choose_orders_for_powers(self, game, powers: list[str]) -> dict[str, AIResult]:
+        ordered_powers = [power for power in powers if power in POWERS]
+        if not ordered_powers:
+            return {}
+        if len(ordered_powers) == 1:
+            power = ordered_powers[0]
+            return {power: self.choose_orders(game, power)}
+
+        with ThreadPoolExecutor(max_workers=self._worker_limit(len(ordered_powers))) as executor:
+            future_map = {
+                power: executor.submit(self.choose_orders, game, power)
+                for power in ordered_powers
+            }
+            return {
+                power: future_map[power].result()
+                for power in ordered_powers
+            }
+
     def register_submitted_orders(self, game):
         self.memory.register_order_outcomes(
             phase=game.get_current_phase(),
             submitted_orders=game.state.submitted_orders,
         )
+
+    def _worker_limit(self, task_count: int) -> int:
+        return max(1, min(self.max_parallel_workers, task_count))
+
+    def _build_negotiation_exchange(
+        self,
+        game,
+        power: str,
+        target: str,
+        *,
+        reciprocal_replies: bool,
+        reply_via_model: bool,
+    ) -> tuple[str, str, str, str | None]:
+        message = self._generate_outreach_message(game, power, target)
+        reply = None
+        if reciprocal_replies:
+            reply = self._generate_reply(game, power, target, message, prefer_model=reply_via_model)
+        return power, target, message, reply
 
     def _possible_orders_by_location(self, game, power: str) -> dict[str, list[str]]:
         return {
