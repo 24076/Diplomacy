@@ -41,3 +41,30 @@ def test_app_can_auto_submit_ai_powers():
     app._auto_handle_ai_turns()
 
     assert app.game.all_orders_submitted()
+
+
+def test_ai_does_not_auto_reply_for_human_recipient():
+    app = DiplomacyApp()
+    app.apply_controller_selection({"FRANCE"})
+    app.current_power_index = app._first_relevant_power_index()
+
+    app._auto_handle_ai_turns()
+
+    direct_messages = [
+        message
+        for message in app.ai_director.memory.messages
+        if {message.sender, message.recipient} & {"FRANCE"}
+    ]
+    assert direct_messages
+    assert all(message.sender != "FRANCE" for message in direct_messages)
+
+
+def test_ai_director_can_choose_orders_for_multiple_powers():
+    game = Game()
+    director = AIDiplomacyDirector()
+
+    results = director.choose_orders_for_powers(game, ["ENGLAND", "FRANCE"])
+
+    assert set(results) == {"ENGLAND", "FRANCE"}
+    assert results["ENGLAND"].orders
+    assert results["FRANCE"].orders
